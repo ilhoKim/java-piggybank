@@ -21,4 +21,8 @@ public class PiggyBank {
             System.out.println(c.getCount() + " " + c.getCommonName());
         }
     }
+
+    public void currentBalance() {
+        System.out.println("The piggy bank holds $" + getBalance());
+    }
 }
