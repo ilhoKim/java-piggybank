@@ -7,7 +7,7 @@ public class Quarter extends UsCurrency{
     }
 
     public Quarter(int count) {
-        super("Dime", count, 0.25);
+        super("Quarter", count, 0.25);
     }
 
 }
