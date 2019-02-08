@@ -1,6 +1,6 @@
 package com.lambdaschool;
 
-public class UsCurrency {
+public abstract class UsCurrency {
     public String commonName = "";
     public int count = 0;
     public double parValue = 0;
